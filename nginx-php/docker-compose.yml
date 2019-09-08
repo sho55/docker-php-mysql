@@ -13,7 +13,6 @@ services:
 
   app:
     container_name: php-alpine
-    # image: php:7.1.9-fpm-alpine
     build: ./
     volumes:
       - ./php:/var/www/html
